@@ -34,6 +34,9 @@ Certainly! Here's a shorter and simpler version of the "Usage" section:
 
 Feel free to further customize and adapt the README file according to your project's needs.
 
+## Screenshot
+
+
 ## License
 
 This project is licensed under the [License Name]. Refer to the [LICENSE](LICENSE) file for more information.
