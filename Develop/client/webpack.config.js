@@ -5,7 +5,7 @@ const { InjectManifest } = require('workbox-webpack-plugin');
 
 module.exports = () => {
   return {
-    mode: 'development',
+    mode: 'development', /
     entry: {
       main: './src/js/index.js',
       install: './src/js/install.js'
@@ -15,14 +15,11 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
-      // HTML Webpack Plugin for generating HTML file
       new HtmlWebpackPlugin({
         template: './src/index.html',
         chunks: ['main'],
         filename: 'index.html',
       }),
-
-      // Webpack PWA Manifest Plugin for generating manifest file
       new WebpackPwaManifest({
         name: 'My PWA',
         short_name: 'PWA',
@@ -38,22 +35,16 @@ module.exports = () => {
         ],
         fingerprints: false,
       }),
-
-      // Workbox Inject Manifest Plugin for injecting the service worker file
       new InjectManifest({
         swSrc: './src/service-worker.js',
       }),
     ],
-
     module: {
       rules: [
-        // CSS loader configuration
         {
           test: /\.css$/,
           use: ['style-loader', 'css-loader'],
         },
-
-        // Babel loader configuration
         {
           test: /\.js$/,
           exclude: /node_modules/,
