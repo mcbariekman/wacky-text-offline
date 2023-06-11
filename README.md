@@ -35,7 +35,7 @@ Certainly! Here's a shorter and simpler version of the "Usage" section:
 Feel free to further customize and adapt the README file according to your project's needs.
 
 ## Screenshot
-
+[App](./Develop/client/src/images/screenshot.png)
 
 ## License
 
