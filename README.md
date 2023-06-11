@@ -14,8 +14,8 @@ A [web application](https://wacky-text-offline.herokuapp.com/) that provides a t
 
 1. Clone the repository to your local machine.
 2. Navigate to the root directory of the project in your terminal.
-3. Run the command `npm install` to install the project dependencies.
-4. Run the command `npm run start` to start the application's backend and serve the client.
+3. Run the command `npm install` in each directory containing a package.json to install the project dependencies.
+4. Run the command `npm run start:dev` to start the application's backend and serve the client.
 
 Certainly! Here's a shorter and simpler version of the "Usage" section:
 
