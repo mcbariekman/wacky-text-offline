@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A web application that provides a text editor with features such as bundling JavaScript files, utilizing next-gen JavaScript, storing content using IndexedDB, and enabling offline functionality with service workers.",
   "scripts": {
-    "start:dev": "cd Develop && npm run start:dev"
+    "start": "node Develop/server/server.js"
   },
   "author": "Madilyn",
   "license": "MIT",
