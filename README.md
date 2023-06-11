@@ -1,6 +1,6 @@
 # Text Editor Web Application
 
-A [web application](https://wacky-text-offline.herokuapp.com) that provides a text editor with features such as bundling JavaScript files, utilizing next-gen JavaScript, storing content using IndexedDB, and enabling offline functionality with service workers.
+A [web application](https://wacky-text-offline.herokuapp.com), still in developmnet will provide a text editor with features such as bundling JavaScript files, utilizing next-gen JavaScript, storing content using IndexedDB, and enabling offline functionality with service workers. Once debugging has concluded the app will:
 
 ## Table of Contents
 
